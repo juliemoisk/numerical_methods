@@ -1,0 +1,34 @@
+Initial vector: (0.400000, 0.600000)
+PHI_Y:
+	maximum is in 0.600766 and equals -0.531390
+	minimum is in 0.799296 and equals -0.940510
+
+PSI_X:
+	maximum is in 0.400352 and equals 0.904540
+	minimum is in 0.599655 and equals 0.790572
+
+||J|| = 0.940510 = q
+
+F_X:
+	maximum is in 0.596000 and equals 2.384000
+	minimum is in 0.404000 and equals 1.616000
+
+F_Y:
+	maximum is in 0.800000 and equals 1.600000
+	minimum is in 0.602000 and equals 1.204000
+
+G_X:
+	maximum is in 0.400352 and equals 0.904540
+	minimum is in 0.599655 and equals 0.790572
+
+G_Y:
+	maximum is in 0.600000 and equals -1.000000
+	minimum is in 0.600000 and equals -1.000000
+
+Simple iteration method gave the root (x, y) = (0.532896, 0.657302) in 31 iterations and ||f(x, y); g(x, y)|| = 0.000005
+
+Seidel method gave the root (x, y) = (0.532878, 0.657282) in 12 iterations and ||f(x, y); g(x, y)|| = 0.000061
+
+mu = 3.468423
+
+Newton method gave the root (x, y) = (0.532897, 0.657298) in 4 iterations and ||f(x, y); g(x, y)|| = 0.000000
