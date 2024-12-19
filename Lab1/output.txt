@@ -1,0 +1,35 @@
+Analysis of function: f(x) = (1 + sin(x)) * sin(x) - alpha - 3 * x + 5
+
+Interval is [1.00, 2.00], alpha = 3.0
+	sign for the left end:  +
+	sign for the right end: -
+
+Derivative = 2 * cos(x) * sin(x) + cos(x) - 3
+	sign for the left end:  -
+	sign for the right end: -
+	minimum is in 2.00 and equals -4.17
+	maximum is in 1.00 and equals -1.55
+
+Second derivative = -2*sin^2(x) - sin(x) + 2 * cos^2(x)
+	sign for the left end:  -
+	sign for the right end: -
+
+m = 1.55
+M = 4.17
+
+Phi = ((1 + sin(x)) * sin(x) - alpha + 5) / 3
+	minimum is in 2.00 and equals -0.39
+	maximum is in 1.00 and equals 0.48
+
+m_phi = 0.39
+M_phi = q = 0.48
+
+Chord method gave the root x = 1.296380 in 7 iterations and f(x) = 0.000011
+
+Newton method gave the root x = 1.296385 in 5 iterations and f(x) = 0.000000
+
+Simple iteration method gave the root x = 1.296365 in 7 iterations and f(x) = 0.000043
+
+Bisection method gave the root ksi* = 1.296387 in 10 iterations and f(ksi*) = -0.000004
+
+Etkin process gave the root x = 1.296367 in 5 iterations and f(x) = 0.000040
